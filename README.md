@@ -33,6 +33,6 @@ Estudante dedicado de programação com foco em **HTML, CSS e JavaScript**. Apai
 - 💼 **LinkedIn:** [Fabrício Enrique](https://www.linkedin.com/in/fabr%C3%ADcio-enrique-5a4261354)  
 - 📌 **GitHub:** [Fabricio076](https://github.com/Fabricio076)  
 
----
 
-⭐ **Dica:** Atualize este README conforme for adicionando novos projetos!
+
+
