@@ -1,22 +1,42 @@
-# 🎭 Página Tributo - Misaki Mei (Another)
+# 🖤 Página Tributo — Misaki Mei (Another)
 
-![Misaki Mei](https://static.wikia.nocookie.net/another/images/e/e8/Drink.jpg/revision/latest?cb=20140329140016&path-prefix=pt-br)
+![Misaki Mei](https://fabricio076.github.io/projects/misaki-mei/misaki.png)
 
-Meu primeiro projeto HTML/CSS completo, um tributo à personagem Misaki Mei do anime *Another*.
+> Este é o meu primeiro projeto HTML/CSS completo — uma homenagem à personagem **Misaki Mei**, do anime *Another*.
 
-## 🌍 [Ver Página Online]![Misaki Mei](https://fabricio076.github.io/projects/misaki-mei/misaki.png)
+🔗 **[Clique aqui para ver a página online!](https://fabricio076.github.io/projects/misaki-mei/misaki.html)**
 
+---
 
-## 💻 Tecnologias Usadas
+## 🛠 Tecnologias Usadas
+
 - ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 - ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 
-## ✨ Funcionalidades
-- Design dark mode
-- Layout responsivo
-- Efeitos de hover
-- Grid e Flexbox
+---
 
+## 💡 Funcionalidades
 
-> "Este foi meu primeiro site! Aprendi muito sobre HTML e CSS."  
-> — Fabrício Enrique
+- 🎨 Design com tema dark
+- 📱 Layout responsivo (mobile/tablet/PC)
+- ✨ Efeitos de hover nos elementos
+- 📐 Uso de Grid e Flexbox
+- 🧠 Animações com CSS (`fadeIn`)
+
+---
+
+## 📝 Sobre o Projeto
+
+O objetivo desse projeto foi treinar HTML e CSS na prática com um tema que eu gosto: **anime e personagens marcantes**. Escolhi a Misaki Mei porque gosto do mistério em volta dela e do estilo visual do anime *Another*.
+
+Esse projeto me ensinou bastante sobre:
+
+- Como estruturar um site
+- Criar componentes visuais com CSS
+- Usar variáveis (`--primary`, `--dark`, etc)
+- Trabalhar com imagens e responsividade
+
+---
+
+> _"Este foi meu primeiro site! Aprendi muito sobre HTML e CSS."_  
+> — **Fabrício Enrique**
