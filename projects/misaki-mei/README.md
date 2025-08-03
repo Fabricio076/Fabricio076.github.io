@@ -1,6 +1,5 @@
 # 🎭 Misaki Mei Tribute Page
 
-![Banner](https://via.placeholder.com/800x200/2d3748/ffffff?text=Misaki+Mei+Another) *(adicione depois uma imagem real do projeto)*
 
 Página tributo à personagem **Misaki Mei** do anime *Another*, desenvolvida com HTML e CSS puro.
 
