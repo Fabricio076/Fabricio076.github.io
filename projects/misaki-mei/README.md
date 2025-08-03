@@ -1,15 +1,15 @@
-# 🎭 Tributo à Misaki Mei - Another
+# 🩸 Misaki Mei Tribute - Another
 
-![Misaki Mei Preview](https://i.imgur.com/JZkLQhF.jpg)  
-*(Imagem hospedada no Imgur - garantido que aparece)*
+![Banner Misaki](https://i.ibb.co/7YfLZJN/misaki-banner.jpg)  
+*"Você pode ver coisas que os outros não podem"*
 
-## 🌍 [Acesse o Site](https://fabricio076.github.io/projects/misaki-mei/misaki.html)
+## 🔗 [Acesse o Site](https://fabricio076.github.io/projects/misaki-mei/misaki.html)
 
+## 🎯 Features
 ```html
-<div style="background: #1e1e1e; padding: 15px; border-radius: 8px; color: #f8f8f8; margin: 10px 0;">
-<h3 style="color: #ff6699;">✨ Destaques</h3>
-• Design dark mode profissional<br>
+<div style="background: #1e1e2e; padding: 15px; border-radius: 8px; color: #f8f8f8; font-family: 'Segoe UI'; margin: 10px 0;">
+• Dark Mode autêntico<br>
+• Design 100% responsivo<br>
 • Efeitos de hover suaves<br>
-• Layout 100% responsivo<br>
-• Código semântico e organizado
+• Grid/Flexbox moderno
 </div>
