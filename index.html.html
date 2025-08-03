@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrício Enrique - Desenvolvedor Front-end</title>
+    <style>
+        /* Estilos Globais */
+        :root {
+            --primary: #2b6cb0;
+            --secondary: #4299e1;
+            --dark: #2d3748;
+            --light: #f7fafc;
+            --accent: #f6ad55;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--secondary);
+        }
+        
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 60px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::after {
+            content: "";
+            position: absolute;
+            bottom: -50px;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: var(--light);
+            transform: skewY(-3deg);
+            z-index: 1;
+        }
+        
+        .profile {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        /* Seções */
+        section {
+            padding: 60px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            color: var(--primary);
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: var(--accent);
+            margin: 15px auto 0;
+        }
+        
+        /* Sobre Mim */
+        .about {
+            background-color: white;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        /* Habilidades */
+        .skills {
+            background-color: #f0f4f8;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .skill-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .skill-icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        /* Contato */
+        .contact {
+            text-align: center;
+        }
+        
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .contact-link {
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-link:hover {
+            background-color: var(--secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(66, 153, 225, 0.3);
+        }
+        
+        .contact-link i {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 60px;
+        }
+        
+        /* Responsivo */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .tagline {
+                font-size: 1rem;
+            }
+            
+            section {
+                padding: 40px 0;
+            }
+        }
+    </style>
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="profile">
+                <!-- Adicione uma foto sua aqui -->
+                <img src="https://via.placeholder.com/150" alt="Fabrício Enrique" class="profile-pic">
+                <h1>Fabrício Enrique de Oliveira Lopes</h1>
+                <p class="tagline">Estudante de Programação | Foco em Front-end | Apaixonado por Tecnologia</p>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Sobre Mim -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <p>
+                    Olá! Eu sou Fabrício Enrique, um entusiasta de tecnologia de 17 anos com grande paixão por programação e computadores. 
+                    Atualmente, meu foco principal está no desenvolvimento web front-end, estudando diariamente HTML, CSS e JavaScript 
+                    para me tornar um profissional qualificado na área.
+                </p>
+                <p>
+                    Além do front-end, também estudo Python como hobby nas horas vagas, sempre buscando expandir meus conhecimentos 
+                    e aprender coisas novas. Acredito que a tecnologia tem o poder de transformar vidas e estou comprometido em me 
+                    desenvolver constantemente para aproveitar as oportunidades que essa área fascinante pode oferecer.
+                </p>
+                <p>
+                    Meu lema é sempre dar o meu melhor em tudo que faço, com dedicação e persistência para alcançar meus objetivos 
+                    profissionais na área de informática.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Habilidades -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades & Foco</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Estruturação semântica de páginas web</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Estilização e design responsivo</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e lógica de programação</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Lógica de programação e automação</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contato -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p>Estou sempre aberto a novas oportunidades e conexões na área de tecnologia.</p>
+            
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/fabr%C3%ADcio-enrique-5a4261354/" class="contact-link" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                
+                <a href="https://github.com/Whisky856-collab/curso-python-iniciante" class="contact-link" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                
+                <a href="mailto:fabricioenrique74@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i> E-mail
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Fabrício Enrique. Todos os direitos reservados.</p>
+            <p>Desenvolvido com ❤️ e muito código.</p>
+        </div>
+    </footer>
+</body>
+</html>
