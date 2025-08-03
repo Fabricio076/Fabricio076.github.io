@@ -1,19 +1,28 @@
-# 🎭 Tributo à Misaki Mei
+# 🎭 Misaki Mei Tribute Page
 
-![Foto Misaki](https://i.imgur.com/9E0ZxWk.jpg)
 
-Página feita com HTML/CSS em homenagem à personagem de *Another*.
+Página tributo à personagem **Misaki Mei** do anime *Another*, desenvolvida com HTML e CSS puro.
 
-## 🌐 [Ver Online](https://fabricio076.github.io/projects/misaki-mei/misaki.html)
+## 🌐 Acesso
+🔗 [Clique para ver o projeto online](https://fabricio076.github.io/projects/misaki-mei/misaki.html)
 
-## ✨ Recursos
-- Design dark mode
-- Responsivo para celular
-- Efeitos especiais CSS
+## 🛠 Tecnologias Utilizadas
+- ✔️ HTML5 semântico
+- ✔️ CSS3 moderno (Flexbox, Grid, Variáveis CSS)
+- ✔️ Design responsivo
+- ✔️ Efeitos de hover e transições
 
-## 🛠 Tecnologias
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" width="80">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" width="70">
+## 🎨 Preview
+*(Adicione depois um screenshot real do seu projeto)*
+![Prévia](https://via.placeholder.com/600x400/1a202c/ffffff?text=Preview+do+Projeto)
 
-> "Meu primeiro projeto completo!"  
-> — Fabrício
+## 📌 Sobre o Projeto
+```html
+<div style="background: #1a202c; padding: 20px; border-radius: 5px;">
+  <p style="color: #fff;">Página criada como tributo à personagem icônica do anime Another, destacando:</p>
+  <ul style="color: #cbd5e0;">
+    <li>Layout dark mode</li>
+    <li>Seções organizadas</li>
+    <li>Design inspirado no anime</li>
+  </ul>
+</div>
