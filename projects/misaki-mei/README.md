@@ -4,7 +4,8 @@
 
 Meu primeiro projeto HTML/CSS completo, um tributo à personagem Misaki Mei do anime *Another*.
 
-## 🌍 [Ver Página Online](https://Fabricio076.github.io/projects/misaki-mei/html)
+## 🌍 [Ver Página Online]![Misaki Mei](https://fabricio076.github.io/projects/misaki-mei/misaki.png)
+
 
 ## 💻 Tecnologias Usadas
 - ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
