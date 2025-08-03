@@ -4,7 +4,7 @@
 
 > Este é o meu primeiro projeto HTML/CSS completo — uma homenagem à personagem **Misaki Mei**, do anime *Another*.
 
-🔗 **[Clique aqui para ver a página online!](https://fabricio076.github.io/projects/misaki-mei/misaki.html)**
+🔗 **[Clique aqui para ver a página online!](https://fabricio076.github.io/projects/misaki-mei/)**
 
 ---
 
@@ -27,14 +27,8 @@
 
 ## 📝 Sobre o Projeto
 
-O objetivo desse projeto foi treinar HTML e CSS na prática com um tema que eu gosto: **anime e personagens marcantes**. Escolhi a Misaki Mei porque gosto do mistério em volta dela e do estilo visual do anime *Another*.
-
-Esse projeto me ensinou bastante sobre:
-
-- Como estruturar um site
-- Criar componentes visuais com CSS
-- Usar variáveis (`--primary`, `--dark`, etc)
-- Trabalhar com imagens e responsividade
+O objetivo desse projeto foi treinar HTML e CSS na prática com um tema que eu gosto: **anime e personagens marcantes**.  
+Escolhi a Misaki Mei porque gosto do mistério em volta dela e do estilo visual do anime *Another*.
 
 ---
 
