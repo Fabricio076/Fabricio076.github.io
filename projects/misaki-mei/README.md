@@ -1,47 +1,20 @@
-# 🖤 Projeto: Página Tributo — Misaki Mei (Another)
+# 🎭 Tributo à Misaki Mei - Another
 
-![Misaki Mei](https://fabricio076.github.io/projects/misaki-mei/misaki.png)
+![Banner Misaki Mei](https://static.wikia.nocookie.net/another/images/e/e8/Drink.jpg/revision/latest?cb=20140329140016&path-prefix=pt-br)
 
-> Meu primeiro site com HTML e CSS — um tributo à personagem **Misaki Mei**, do anime *Another*.
+Meu primeiro projeto web completo, uma homenagem à personagem Misaki Mei do anime *Another*. Desenvolvido com HTML e CSS puro.
 
----
+## 🌐 [Acesse o Projeto Aqui](https://fabricio076.github.io/projects/misaki-mei/misaki.html)
 
-### 🔗 Acesse o projeto online:
-👉 [Clique aqui para abrir a página](https://fabricio076.github.io/projects/misaki-mei/)
+## 🛠 Tecnologias Utilizadas
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
----
-
-## 🚀 Tecnologias usadas
-
-- HTML5  
-- CSS3 (com variáveis e animações)
-- Layout responsivo (funciona no celular)
-- Flexbox e Grid
-
----
-
-## 💡 O que tem nesse projeto?
-
-- 🎨 Tema escuro com gradiente
-- 📱 Layout adaptável para qualquer tela
-- ✨ Efeitos de hover e animações com CSS
-- 🧩 Estilo visual baseado na estética do anime
-
----
-
-## 📌 Sobre a personagem
-
-> *Misaki Mei é uma personagem misteriosa do anime Another. Ela usa um tapa-olho que esconde um segredo importante, e está ligada à maldição da sala 3-3.*
-
----
-
-## 🙋‍♂️ Sobre mim
-
-Sou **Fabrício Enrique**, estudante de programação apaixonado por tecnologia, animes e design.  
-Esse foi meu **primeiro projeto** HTML e CSS, e aprendi demais criando essa página.
-
----
-
-> _"Este foi meu primeiro site! Aprendi muito sobre HTML e CSS."_  
-> — **Fabrício Enrique**
-
+## ✨ Destaques
+```html
+<div style="background: #1a202c; padding: 20px; border-radius: 8px; color: #fff; margin: 10px 0; font-family: Arial;">
+  <p>✔ Design inspirado no anime<br>
+  ✔ Totalmente responsivo<br>
+  ✔ Efeitos de hover suaves<br>
+  ✔ Organização com Grid CSS</p>
+</div>
