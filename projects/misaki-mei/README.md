@@ -12,9 +12,6 @@ Página tributo à personagem **Misaki Mei** do anime *Another*, desenvolvida co
 - ✔️ Design responsivo
 - ✔️ Efeitos de hover e transições
 
-## 🎨 Preview
-*(Adicione depois um screenshot real do seu projeto)*
-![Prévia](https://via.placeholder.com/600x400/1a202c/ffffff?text=Preview+do+Projeto)
 
 ## 📌 Sobre o Projeto
 ```html
