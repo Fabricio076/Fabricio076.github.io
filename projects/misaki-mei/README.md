@@ -3,7 +3,7 @@
 Página tributo à personagem **Misaki Mei** do anime *Another*, desenvolvida com HTML e CSS puro.
 
 ## 🌐 Acesso
-🔗 [Clique para ver o projeto online](https://fabricio076.github.io/projects/index.html/misaki-mei)
+🔗 [Clique para ver o projeto online](index.html)
 
 ## 🛠 Tecnologias Utilizadas
 - ✔️ **HTML5** semântico
