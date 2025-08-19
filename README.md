@@ -1,4 +1,4 @@
-# 👋 Olá, eu sou o Fabrício Enrique! 
+# 👋 Prazer, eu sou o Fabricio! 
 
 [![GitHub](https://img.shields.io/badge/Portfólio-Online-%230077B5?style=flat&logo=github)](https://fabricio076.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-%230077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/fabr%C3%ADcio-enrique-5a4261354)
